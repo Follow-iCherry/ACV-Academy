@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Access Coding's free, programs teach you technical skills, soft skills, and give you the support you need to succeed.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Soft Skills</h3>
+                <p>Soft Skill training is working on personal attributes, communication abilities, personality traits, etc. which are important socially and professionally. These skills help you with a lot of things in the workplace. Soft skills play an important role in the success and growth of a person. It is important for the employees to be able to interact well with others as every profession and role includes interacting with the clients, colleagues, managers, and others. Employees with good soft skills are also very adaptable to the role and environment irrespective of the field or industry. They are deemed as efficient candidates by the employers.</p>
+            </div>
+            <div class="course-col">
+                <h3>Job Training</h3>
+                <p>Access Coding Virtual Academy (ACVA) provides no-cost access to several services, platforms, and partners to help learners explore careers, enhance resume content, get help with interview preparation, provide guidance about the job or college search process, and lastly, provide training tools for continued success on the job long-term. (ACVA) also provides the option for staff support through one-on-one coaching with professionals, life coaches, and career coaches.</p>
+            </div>
+            <div class="course-col">
+                <h3>Tech Program Bootcamps</h3>
+                <p>Technology-focused, at speed and scale. Generation Training Accelerator programs prepare students for potential outcomes like apprenticeships, internships, continuing education, or full-time employment.</p><p>With twice as much practice as instruction, all of our sessions include interactive activities. Our training integrates technical, behavioral, and mindset skills, focusing on those that matter most for graduates to hit the ground running on their first day on the job.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/library.png">
+                    <h3>World Class Library</h3>
+                    <p>Further your education with our vast array of literature</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/basketball.png">
+                    <h3>Modern Fitness Center</h3>
+                    <p>Stay in shape using or modern and state of the art fitness center</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Offering healthy and tasty options to fit all dietary needs</p>
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Access Coding Virtual Academy is a nonprofit organization that provides free job training, placement, and support to help people find <br>life-changing careers.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/AccessCoding"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/accesscodingedu/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Cheri L.</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
